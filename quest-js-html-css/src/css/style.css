@@ -1,0 +1,104 @@
+body {
+    background-image: url(../img/bg-repeat.jpg);
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    width: 800px;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.informativo {
+    color: white;
+    height: 111px;
+    width: 300px;
+    margin-left: 50px;
+}
+section.informativo .titulo {
+    font-size: 20px;
+}
+section.informativo .paragrafo {
+    font-size: 15px;
+    margin-top: 11px;
+}
+
+
+section.formulario {
+    background-color: white;
+    height: 400px;
+    width: 340px;
+    margin: 12px 50px 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+section .preenchimento .inputs {
+    border: 1px solid black;
+    height: 35.11px;
+    width: 298.01px;
+    border-radius: 5px;
+    margin: 20px 20px 0 22px;
+}
+section .preenchimento .inputs {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+button {
+    display: block;
+    background-color: #3CCC87;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 20px 0 22px;
+    font-size: 15px;
+    width: 298.03px;
+    height: 41.13px;
+    font-weight: 700;
+    border: #ffffff;
+    cursor: pointer;
+}
+
+section .atencao {
+    margin: 15px 174.97px 10px 20px;
+    width: 100%;
+}
+
+
+section .preenchimento .inputs.input-vazio {
+    border: 2px solid red;
+}
+section .preenchimento .inputs.input-preenchido {
+    border: 2px solid green;
+}
+.campos {
+    color: red;
+    font-size: 12px;
+    margin: 0px 0px 0px 20px;
+    position: absolute;
+    visibility: hidden;
+}
+.campos-desoculto {
+    color: red;
+    font-size: 12px;
+    margin-left: 20px;
+    position: absolute;
+    visibility: visible;
+    display: block;
+}
+  
